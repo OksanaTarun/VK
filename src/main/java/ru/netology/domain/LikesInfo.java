@@ -3,6 +3,8 @@ package ru.netology.domain;
 public class LikesInfo {
     private int count;
     private boolean isLiked;
+    private boolean canLike;
+    private boolean canPublish;
 
     public int getCount() {
         return count;
